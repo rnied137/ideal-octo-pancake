@@ -1,10 +1,9 @@
 export const SITE = {
   title: "Astro Design System",
-  description: "Astro theme to build your design system fast.",
+  description: "Tips, Tricks and Taunts.",
   defaultLanguage: "en_US",
-  twitter: "@jordienr",
-  github: "jordienr",
-  linkedin: "linkedinUsername",
+  github: "Szelma139",
+  linkedin: "radosław-niedbała-b061a01a7",
 };
 
 export const OPEN_GRAPH = {
@@ -30,4 +29,13 @@ export const SIDEBAR = [
 
   { text: "Patterns", header: true },
   { text: "Introduction", link: "/patterns/introduction" },
+
+  { text: "Git", header: true} ,
+  { text: "Tipy", link: "/git/tips"},
+
+  { text: "Przypominajka", header: true},
+  { text: "Przepisy", link: "/przypominajka/recipes"},
+  { text: "Azure", link: "/przypominajka/azure"},
+  { text: "Rust", link: "/przypominajka/rust"},
+  { text: "Wymagania programowanie", link: "/przypominajka/requirements"},
 ];
