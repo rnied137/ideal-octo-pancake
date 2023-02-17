@@ -34,8 +34,12 @@ export const SIDEBAR = [
   { text: "Tipy", link: "/git/tips"},
 
   { text: "Przypominajka", header: true},
+  { text: "Jak czytać taby gitarowe", link: "/przypominajka/tabs"},
   { text: "Przepisy", link: "/przypominajka/recipes"},
   { text: "Azure", link: "/przypominajka/azure"},
   { text: "Rust", link: "/przypominajka/rust"},
   { text: "Wymagania programowanie", link: "/przypominajka/requirements"},
+
+  { text: "Piosenki", header: true} ,
+  { text: "Seishun Complex", link: "/piosenki/seishun_complex"},
 ];
